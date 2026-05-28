@@ -1,0 +1,60 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.04"/>
+    </pattern>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="65%" r="45%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Logo mark -->
+  <rect x="96" y="176" width="72" height="72" rx="18" fill="url(#logoGrad)"/>
+  <defs>
+    <linearGradient id="logoGrad" x1="96" y1="176" x2="168" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <text x="132" y="226" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="white" text-anchor="middle">AM</text>
+
+  <!-- Brand name -->
+  <text x="96" y="308" font-family="system-ui, sans-serif" font-size="64" font-weight="800" fill="white">AniMatch</text>
+
+  <!-- Tagline -->
+  <text x="96" y="370" font-family="system-ui, sans-serif" font-size="28" font-weight="400" fill="#9ca3af">Personalized anime recommendations</text>
+  <text x="96" y="410" font-family="system-ui, sans-serif" font-size="28" font-weight="400" fill="#9ca3af">based on your MyAnimeList.</text>
+
+  <!-- CTA pill -->
+  <rect x="96" y="450" width="268" height="52" rx="26" fill="#ec4899" fill-opacity="0.15" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="230" y="482" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#ec4899" text-anchor="middle">Free · Instant · No account needed</text>
+
+  <!-- Decorative anime-style accent lines -->
+  <line x1="96" y1="438" x2="364" y2="438" stroke="#ec4899" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Right side decorative element -->
+  <circle cx="950" cy="315" r="200" fill="none" stroke="#ec4899" stroke-width="1" stroke-opacity="0.06"/>
+  <circle cx="950" cy="315" r="150" fill="none" stroke="#ec4899" stroke-width="1" stroke-opacity="0.08"/>
+  <circle cx="950" cy="315" r="100" fill="none" stroke="#f43f5e" stroke-width="1.5" stroke-opacity="0.12"/>
+
+  <!-- Star/sparkle icons -->
+  <text x="870" y="280" font-size="36" fill="#ec4899" opacity="0.4">✦</text>
+  <text x="1010" y="360" font-size="24" fill="#f43f5e" opacity="0.3">✦</text>
+  <text x="930" y="400" font-size="18" fill="#ec4899" opacity="0.25">✦</text>
+
+  <!-- Domain label bottom right -->
+  <text x="1104" y="590" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#4b5563" text-anchor="end">animatch.bolt.host</text>
+</svg>
