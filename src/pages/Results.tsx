@@ -99,7 +99,7 @@ function resetSEO() {
   if (ogTitle) ogTitle.setAttribute('content', 'AniMatch — Personalized Anime Recommendations Based on Your MAL List');
 
   const ogUrl = document.querySelector('meta[property="og:url"]');
-  if (ogUrl) ogUrl.setAttribute('content', 'https://animatch.bolt.host');
+  if (ogUrl) ogUrl.setAttribute('content', 'https://getanimatch.vercel.app');
 }
 
 export default function Results() {

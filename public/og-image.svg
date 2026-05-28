@@ -56,5 +56,5 @@
   <text x="930" y="400" font-size="18" fill="#ec4899" opacity="0.25">✦</text>
 
   <!-- Domain label bottom right -->
-  <text x="1104" y="590" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#4b5563" text-anchor="end">animatch.bolt.host</text>
+  <text x="1104" y="590" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#4b5563" text-anchor="end">getanimatch.vercel.app</text>
 </svg>

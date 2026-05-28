@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://animatch.bolt.host/sitemap.xml
+Sitemap: https://getanimatch.vercel.app/sitemap.xml
 
 # Allow major search engine crawlers specifically
 User-agent: Googlebot
